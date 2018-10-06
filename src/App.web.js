@@ -15,6 +15,9 @@ export default class App extends React.Component {
                 <Button variant="contained" color="primary">
                     Ceci est un bouton Material-UI !
                 </Button>
+                <Button variant="contained" color="primary">
+                    Nouveau button pour test PR
+                </Button>
             </div>
         );
     }
