@@ -1,5 +1,6 @@
 import React from "react";
 import Button from '@material-ui/core/Button';
+import AlgoliaSearch from "./ui/search/AlgoliaSearch.web";
 
 export default class App extends React.Component {
     constructor(props) {
@@ -18,6 +19,7 @@ export default class App extends React.Component {
                 <Button variant="contained" color="primary">
                     Nouveau button pour test PR
                 </Button>
+                <AlgoliaSearch/>
             </div>
         );
     }
