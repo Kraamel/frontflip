@@ -11,10 +11,11 @@ export default class AlgoliaSearch extends React.Component {
     render() {
         return (
             <InstantSearch
-                appId="RSXBUBL0PB"
-                apiKey="4f810fbd75bdd775c67c8d477dce7746"
-                indexName="dev_world"
+                appId={process.env.REACT_APP_ALGOLIA_APP_ID}
+                apiKey={process.env.REACT_APP_ALGOLIA_API_KEY}
+                indexName={process.env.REACT_APP_ALGOLIA_INDEX_NAME}
             >
+            
                 <SearchBox/>
                 <Hits />
             </InstantSearch>
