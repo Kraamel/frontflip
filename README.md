@@ -15,3 +15,5 @@ expo start
 
 # General
 Try to make categories in UI folder.
+
+Don't forget the XXX.web.js name for web UI elements.
